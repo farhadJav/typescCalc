@@ -1,6 +1,6 @@
 {
-  "name": "step00_helloworld",
-  "version": "1.0.0",
+  "name": "farhadcalc",
+  "version": "1.2.0",
   "description": "[For the latest docs](https://www.typescriptlang.org/docs/)",
   "type": "module",
   "main": "./app.js",
@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
+  },
+  "bin": {
+    "farhadcalc": "bin/app.js"
   }
 }
